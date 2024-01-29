@@ -8,7 +8,7 @@ function updateClock() {
 }
 
 function setAlarm() {
-    const alarmTime = prompt("Régler l'heure (HH:mm):");
+    const alarmTime = prompt("À quelle heure dois je sonner? (HH:mm):");
     const [alarmHour, alarmMinute] = alarmTime.split(':');
 
     setInterval(() => {

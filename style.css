@@ -6,7 +6,9 @@ body {
     margin: 0;
     background-color: #b97d7d;
     font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-family: 'Sixtyfour', sans-serif;
+    font-family: 'Stick', sans-serif;
 }
 
 .alarm-container {
@@ -16,7 +18,7 @@ body {
 .alarm-clock {
     border: 5px solid black;
     border-radius: 90px;
-    padding: 200px;
+    padding: 90px;
     background-color: #863a53;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -27,10 +29,14 @@ body {
 }
 
 button {
-    padding: 50px 100px;
+    padding: 20px 70px;
     font-size: 8em;
     border: 5px solid black;
     cursor: pointer;
     border-radius: 50px;
     background-color: rgb(92, 62, 107);
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sixtyfour', sans-serif;
+    font-family: 'Stick', sans-serif;
 }
