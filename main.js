@@ -8,7 +8,7 @@ function updateClock() {
 }
 
 function setAlarm() {
-    const alarmTime = prompt("Set the alarm time (HH:mm):");
+    const alarmTime = prompt("Régler l'heure (HH:mm):");
     const [alarmHour, alarmMinute] = alarmTime.split(':');
 
     setInterval(() => {
@@ -18,7 +18,7 @@ function setAlarm() {
 
         if (currentHour == alarmHour && currentMinute == alarmMinute) {
             document.getElementById('alarmSound').play();
-            alert("Wake up!");
+            alert("Lève toi!!!!");
         }
     }, 1000);
 }
